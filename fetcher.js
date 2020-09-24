@@ -36,7 +36,7 @@ rl.question(chalk.green('Enter the URL:\n'), (answer) => {
         // throws the error if there is one
         if (err) throw err;
 
-        // success case, the file was saved. 
+        // Success! Let the user know that the file was saved and how many bytes it is. 
         console.log(chalk.green('Downloaded and saved ' + chalk.red(size) + " bytes to " + chalk.red(user.file)));
       });
 
@@ -50,4 +50,4 @@ rl.question(chalk.green('Enter the URL:\n'), (answer) => {
 
 
 
-// //Use fs to write the document to  to the provided local file path.
+
